@@ -47,7 +47,7 @@
         },
         {
             "id": "지혜",
-            "group": 1
+            "group": 10
         },
         {
             "id": "본인보다는 타인",
@@ -76,7 +76,7 @@
         },
         {
             "id": "예(禮)",
-            "group": 2
+            "group": 10
         },
         {
             "id": "악(樂)",
@@ -105,6 +105,194 @@
         {
             "id": "즐거운 삶",
             "group": 2
+        },
+        {
+            "id": "군자",
+            "group": 3,
+            "isMain": true
+        },
+        {
+            "id": "언행일치",
+            "group": 3
+        },
+        {
+            "id": "정의",
+            "group": 3
+        },
+        {
+            "id": "조화를 추구하는",
+            "group": 3
+        },
+        {
+            "id": "반성",
+            "group": 3
+        },
+        {
+            "id": "행동이 민첩하다",
+            "group": 3
+        },
+        {
+            "id": "여유",
+            "group": 3
+        },
+        {
+            "id": "의(義)",
+            "group": 3
+        },
+        {
+            "id": "남을 돕는",
+            "group": 3
+        },
+        {
+            "id": "원망하지 않는",
+            "group": 3
+        },
+        {
+            "id": "말을 신중히",
+            "group": 3
+        },
+        {
+            "id": "태연하다",
+            "group": 3
+        },
+        {
+            "id": "실천",
+            "group": 3
+        },
+        {
+            "id": "자긍심",
+            "group": 3
+        },
+        {
+            "id": "소인",
+            "group": 4,
+            "isMain": true
+        },
+        {
+            "id": "교만함",
+            "group": 4
+        },
+        {
+            "id": "조화를 못 이룸",
+            "group": 4
+        },
+        {
+            "id": "풀 같은 성질",
+            "group": 4
+        },
+        {
+            "id": "당파를 형성",
+            "group": 4
+        },
+        {
+            "id": "기쁘게 하기 쉬움",
+            "group": 4
+        },
+        {
+            "id": "남을 탓함",
+            "group": 4
+        },
+        {
+            "id": "태연하지 못함",
+            "group": 4
+        },
+        {
+            "id": "부화뇌동",
+            "group": 4
+        },
+        {
+            "id": "근심",
+            "group": 4
+        },
+        {
+            "id": "섬기기 어려움",
+            "group": 4
+        },
+        {
+            "id": "이익 추구",
+            "group": 4
+        },
+        {
+            "id": "어질다",
+            "group": 5,
+            "isMain": true
+        },
+        {
+            "id": "신중한",
+            "group": 5
+        },
+        {
+            "id": "인정받는",
+            "group": 5
+        },
+        {
+            "id": "인위적인",
+            "group": 5
+        },
+        {
+            "id": "쓸모 있는",
+            "group": 5
+        },
+        {
+            "id": "포용",
+            "group": 5
+        },
+        {
+            "id": "국가를 위해 애쓰는",
+            "group": 5
+        },
+        {
+            "id": "목숨 바치는",
+            "group": 5
+        },
+        {
+            "id": "우쭐대지 않는",
+            "group": 5
+        },
+        {
+            "id": "어리석다",
+            "group": 6,
+            "isMain": true
+        },
+        {
+            "id": "아는 척 하는",
+            "group": 6
+        },
+        {
+            "id": "가지지 못한 것을 책망하는",
+            "group": 6
+        },
+        {
+            "id": "재능 없는 신하를 둔 군주",
+            "group": 6
+        },
+        {
+            "id": "줏대 없는",
+            "group": 6
+        },
+        {
+            "id": "오락가락하는",
+            "group": 6
+        },
+        {
+            "id": "자연스러운",
+            "group": 6
+        },
+        {
+            "id": "인정받지 못해도 위축되지 않는",
+            "group": 6
+        },
+        {
+            "id": "아첨",
+            "group": 6
+        },
+        {
+            "id": "순종",
+            "group": 6
+        },
+        {
+            "id": "옳고 그름을 살피지 않는",
+            "group": 6
         }
     ],
     "links": [
@@ -174,11 +362,6 @@
             "value": 1
         },
         {
-            "source": "인(仁)",
-            "target": "인자",
-            "value": 1
-        },
-        {
             "source": "인자",
             "target": "효도",
             "value": 1
@@ -236,6 +419,261 @@
         {
             "source": "인자",
             "target": "즐거운 삶",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "예(禮)",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "실천",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "언행일치",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "조화를 추구하는",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "정의",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "겸손",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "반성",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "행동이 민첩하다",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "여유",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "의(義)",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "남을 돕는",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "원망하지 않는",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "말을 신중히",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "태연하다",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "인(仁)",
+            "value": 1
+        },
+        {
+            "source": "군자",
+            "target": "자긍심",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "군자",
+            "value": 2
+        },
+        {
+            "source": "소인",
+            "target": "부화뇌동",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "근심",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "이익 추구",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "교만함",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "조화를 못 이룸",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "풀 같은 성질",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "당파를 형성",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "기쁘게 하기 쉬움",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "남을 탓함",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "태연하지 못함",
+            "value": 1
+        },
+        {
+            "source": "소인",
+            "target": "섬기기 어려움",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "신중한",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "인정받는",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "인위적인",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "쓸모 있는",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "포용",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "국가를 위해 애쓰는",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "지혜",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "목숨 바치는",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "예(禮)",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "우쭐대지 않는",
+            "value": 1
+        },
+        {
+            "source": "어질다",
+            "target": "겸손",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "어질다",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "소인",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "아는 척 하는",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "가지지 못한 것을 책망하는",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "재능 없는 신하를 둔 군주",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "줏대 없는",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "오락가락하는",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "자연스러운",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "인정받지 못해도 위축되지 않는",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "순종",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "아첨",
+            "value": 1
+        },
+        {
+            "source": "어리석다",
+            "target": "옳고 그름을 살피지 않는",
             "value": 1
         }
     ]

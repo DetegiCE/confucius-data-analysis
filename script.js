@@ -1,8 +1,8 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-const width = 1000;
-const height = 1000;
-const strength = -1500;
+const width = 2000;
+const height = 1500;
+const strength = -500;
 
 const data = await d3.json("data.json");
 
@@ -35,7 +35,7 @@ const setFontWeight = (d) => {
 
 const setFontSize = (d) => {
     if (d.isMain) return 30;
-    else return 20;
+    else return 15;
 }
 
 const node =
@@ -64,25 +64,27 @@ const link =
         .join("line")
         .attr("stroke", "black");
 
-// const simulation = d3.forceSimulation(nodes)
-//     .force("link", d3.forceLink(links).id(d => d.id))
-//     .force("charge", d3.forceManyBody())
-//     .force("center", d3.forceCenter(width / 2, height / 2))
-//     .on("tick", drawNodes)
-//     .on("tick", drawLines);
+const simulation = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id))
+    .force("center", d3.forceCenter(width / 2, height / 2))
+    .force('charge', d3.forceManyBody().strength(strength))
+    .on("tick", () => {
+        drawNodes();
+        drawLines();
+    });
 
-// container
-//     .call(d3.drag()
-//         .subject(event => {
-//             const [px, py] = d3.pointer(event, container);
-//             return d3.least(nodes, ({ x, y }) => {
-//                 const dist2 = (x - px) ** 2 + (y - py) ** 2;
-//                 return dist2;
-//             });
-//         })
-//         .on("start", dragstarted)
-//         .on("drag", dragged)
-//         .on("end", dragended))
+container
+    .call(d3.drag()
+        .subject(event => {
+            const [px, py] = d3.pointer(event, container);
+            return d3.least(nodes, ({ x, y }) => {
+                const dist2 = (x - px) ** 2 + (y - py) ** 2;
+                return dist2;
+            });
+        })
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended))
 
 function drawNodes() {
     node.attr("transform", d => "translate(" + [d.x, d.y] + ")");
@@ -96,19 +98,19 @@ function drawLines() {
         .attr("y2", d => d.target.y)
 }
 
-// function dragstarted(event) {
-//     if (!event.active) simulation.alphaTarget(0.3).restart();
-//     event.subject.fx = event.subject.x;
-//     event.subject.fy = event.subject.y;
-// }
+function dragstarted(event) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    event.subject.fx = event.subject.x;
+    event.subject.fy = event.subject.y;
+}
 
-// function dragged(event) {
-//     event.subject.fx = event.x;
-//     event.subject.fy = event.y;
-// }
+function dragged(event) {
+    event.subject.fx = event.x;
+    event.subject.fy = event.y;
+}
 
-// function dragended(event) {
-//     if (!event.active) simulation.alphaTarget(0);
-//     event.subject.fx = null;
-//     event.subject.fy = null;
-// }
+function dragended(event) {
+    if (!event.active) simulation.alphaTarget(0);
+    event.subject.fx = null;
+    event.subject.fy = null;
+}
