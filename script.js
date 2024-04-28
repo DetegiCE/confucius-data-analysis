@@ -2,7 +2,7 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 const width = 1000;
 const height = 1000;
-const strength = -2000;
+const strength = -1500;
 
 const data = await d3.json("data.json");
 
@@ -35,7 +35,7 @@ const setFontWeight = (d) => {
 
 const setFontSize = (d) => {
     if (d.isMain) return 30;
-    else return 16;
+    else return 20;
 }
 
 const node =
