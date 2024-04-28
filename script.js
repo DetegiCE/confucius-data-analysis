@@ -53,6 +53,7 @@ const node =
                 .append("text")
                 .attr('font-weight', setFontWeight(d))
                 .attr('font-size', setFontSize(d))
+                .attr('font-family', 'GmarketSans')
                 .text(d.id);
         })
 
