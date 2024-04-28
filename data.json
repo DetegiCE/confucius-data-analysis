@@ -54,8 +54,57 @@
             "group": 1
         },
         {
+            "id": "인자",
+            "group": 2,
+            "isMain": true
+        },
+        {
+            "id": "효도",
+            "group": 2
+        },
+        {
+            "id": "성실",
+            "group": 2
+        },
+        {
+            "id": "선의",
+            "group": 2
+        },
+        {
+            "id": "어떠한 상황에서도",
+            "group": 2
+        },
+        {
+            "id": "예(禮)",
+            "group": 2
+        },
+        {
+            "id": "악(樂)",
+            "group": 2
+        },
+        {
+            "id": "공정",
+            "group": 2
+        },
+        {
+            "id": "양심",
+            "group": 2
+        },
+        {
+            "id": "겉과 내면",
+            "group": 2
+        },
+        {
+            "id": "선량",
+            "group": 2
+        },
+        {
             "id": "겸손",
-            "group": 1
+            "group": 10
+        },
+        {
+            "id": "즐거운 삶",
+            "group": 2
         }
     ],
     "links": [
@@ -122,6 +171,71 @@
         {
             "source": "인(仁)",
             "target": "겸손",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "인자",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "효도",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "성실",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "선의",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "어떠한 상황에서도",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "예(禮)",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "악(樂)",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "공정",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "양심",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "겉과 내면",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "선량",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "겸손",
+            "value": 1
+        },
+        {
+            "source": "인자",
+            "target": "즐거운 삶",
             "value": 1
         }
     ]
