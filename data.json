@@ -1,0 +1,128 @@
+{
+    "nodes": [
+        {
+            "id": "인(仁)",
+            "group": 1,
+            "isMain": true
+        },
+        {
+            "id": "효(孝)",
+            "group": 1
+        },
+        {
+            "id": "존중",
+            "group": 1
+        },
+        {
+            "id": "언행",
+            "group": 1
+        },
+        {
+            "id": "공정함",
+            "group": 1
+        },
+        {
+            "id": "성인(聖人)",
+            "group": 1
+        },
+        {
+            "id": "희생",
+            "group": 1
+        },
+        {
+            "id": "성품",
+            "group": 1
+        },
+        {
+            "id": "지(智)",
+            "group": 1
+        },
+        {
+            "id": "강인함",
+            "group": 1
+        },
+        {
+            "id": "책임",
+            "group": 1
+        },
+        {
+            "id": "지혜",
+            "group": 1
+        },
+        {
+            "id": "본인보다는 타인",
+            "group": 1
+        },
+        {
+            "id": "겸손",
+            "group": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "인(仁)",
+            "target": "효(孝)",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "존중",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "공정함",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "언행",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "성인(聖人)",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "희생",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "성품",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "강인함",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "지(智)",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "책임",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "지혜",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "본인보다는 타인",
+            "value": 1
+        },
+        {
+            "source": "인(仁)",
+            "target": "겸손",
+            "value": 1
+        }
+    ]
+}
