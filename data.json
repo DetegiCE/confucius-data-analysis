@@ -362,6 +362,11 @@
             "value": 1
         },
         {
+            "source": "인(仁)",
+            "target": "인자",
+            "value": 1
+        },
+        {
             "source": "인자",
             "target": "효도",
             "value": 1
