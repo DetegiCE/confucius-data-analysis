@@ -34,3 +34,22 @@ section > h1 {
     text-align: center;
     font-weight: 700;
 }
+
+.inner-table {
+    flex-direction: row;
+}
+
+.inner-table > .nav {
+    flex-direction: column;
+    width: 10%;
+} 
+
+@media screen and (max-width: 991px) {
+    .inner-table {
+        flex-direction: column;
+    }
+    .inner-table > .nav {
+        flex-direction: row;
+        width: 100%;
+    }
+}
