@@ -16,3 +16,21 @@ section > h1 {
     padding-bottom: 10px;
     border-bottom: 1px solid #DDD;
 }
+
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-wrap > .card {
+    width: 32%;
+}
+
+.card-wrap > .card > img {
+    height: 250px;
+}
+
+.row-link {
+    text-align: center;
+    font-weight: 700;
+}
