@@ -17,6 +17,11 @@ section > h1 {
     border-bottom: 1px solid #DDD;
 }
 
+#container > section {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
 .card-wrap {
     display: flex;
     justify-content: space-between;
